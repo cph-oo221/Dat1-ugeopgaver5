@@ -3,6 +3,9 @@ package Task1;
 public class Car
 {
     // 5 private fields:
+
+    // Jeg er ikke sikker på om make skal være int?????
+    // ^ samt bodystyle 
     private int make;
     private String model;
     private int year;
@@ -76,5 +79,12 @@ public class Car
     public void setDriver(String driver)
     {
         Driver = driver;
+    }
+
+
+    @Override
+    public String toString()
+    {
+        return "Make: "+make+". Model: "+model+ " ("+ year + "), BodyStyle: " + bodyStyle;
     }
 }
