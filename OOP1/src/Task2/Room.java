@@ -7,7 +7,7 @@ public class Room
    private int numberOfLamps;
    private int numberOfWindows;
 
-   // constructor
+   // constructor for room
     public Room(int numberOfDoors, int numberOfLamps, int numberOfWindows)
     {
         this.numberOfDoors = numberOfDoors;
@@ -15,6 +15,8 @@ public class Room
         this.numberOfWindows = numberOfWindows;
     }
 
+
+    // getter for the 3 fields:
     public int getNumberOfDoors()
     {
         return numberOfDoors;
@@ -29,7 +31,6 @@ public class Room
     {
         return numberOfWindows;
     }
-
 
 
 }

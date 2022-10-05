@@ -5,7 +5,6 @@ public class Car
     // 5 private fields:
 
     // Jeg er ikke sikker på om make skal være int?????
-    // ^ samt bodystyle
     private int make;
     private String model;
     private int year;
@@ -26,7 +25,7 @@ public class Car
 
     // TODO don't need all setters and getters for make, model and year;
 
-    // make get and set
+  /*  // make get and set
     public int getMake()
     {
         return make;
@@ -70,7 +69,7 @@ public class Car
     public void setBodyStyle(String bodyStyle)
     {
         this.bodyStyle = bodyStyle;
-    }
+    }*/
 
 
     // Driver get and set
