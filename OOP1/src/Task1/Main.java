@@ -11,6 +11,10 @@ public class Main
 
         // LHD: (Left hand drive) && RHD: (Right hand drive)
         // instantiate a new car
-        Car car = new Car(1, "Nissan GT-R",2021,"Sports Car","LHD");
+        Car car = new Car(1, "Nissan GT-R",2021,"Sports Car","RHD");
+
+
+
+
     }
 }

@@ -9,7 +9,10 @@ public class Car
     private int make;
     private String model;
     private int year;
+
     private String bodyStyle;
+
+    // RHD OR LHD:
     private String Driver;
 
     // Constructor for car
@@ -82,6 +85,7 @@ public class Car
     }
 
 
+    // toString method for car
     @Override
     public String toString()
     {
