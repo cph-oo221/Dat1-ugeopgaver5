@@ -12,19 +12,19 @@ public class Car
 
     private String bodyStyle;
 
-    // RHD OR LHD:
-    private String Driver;
+    private Driver driver;
 
     // Constructor for car
-    public Car(int make, String model, int year, String bodyStyle, String driver)
+    public Car(int make, String model, int year, String bodyStyle)
     {
         this.make = make;
         this.model = model;
         this.year = year;
         this.bodyStyle = bodyStyle;
-        Driver = driver;
     }
 
+
+    // TODO don't need all setters and getters for make, model and year;
 
     // make get and set
     public int getMake()
@@ -74,16 +74,17 @@ public class Car
 
 
     // Driver get and set
-    public String getDriver()
+
+
+    public Driver getDriver()
     {
-        return Driver;
+        return driver;
     }
 
-    public void setDriver(String driver)
+    public void setDriver(Driver driver)
     {
-        Driver = driver;
+        this.driver = driver;
     }
-
 
     // toString method for car
     @Override
