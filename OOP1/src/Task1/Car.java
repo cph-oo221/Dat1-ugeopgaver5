@@ -5,7 +5,7 @@ public class Car
     // 5 private fields:
 
     // Jeg er ikke sikker på om make skal være int?????
-    // ^ samt bodystyle 
+    // ^ samt bodystyle
     private int make;
     private String model;
     private int year;
