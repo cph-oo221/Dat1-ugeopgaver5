@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Main
 {
+
+
     public static void main(String[] args)
     {
         // TODO in class building, check/make 2.d
@@ -21,6 +23,8 @@ public class Main
 
 
 
+
+
         // 2.I Instantiate a new building.
 
         Building building1 = new Building(rooms,5,2,false);
@@ -28,19 +32,40 @@ public class Main
         System.out.println(building1.toString());
 
 
-
+        /*isNormal();
+        countLampsInBuilding();*/
 
     }
 
 
     // 2.j  create a static method in Main, countLampsInBuilding
-    public static void countLampsInBuilding(Building building)
+    public static int countLampsInBuilding(Building building1)
     {
+        int countOfLamps = 0;
 
-        System.out.println(building.getRooms().get(1).getNumberOfLamps());
+        for (int i = 0; i<building1.getRooms().size(); i++)
+        {
+           countOfLamps =  building1.getRooms().get(i).getNumberOfLamps();
+
+        }
+        return countOfLamps;
+    }
 
 
+    // 2.k
+    public static boolean isNormal(Building building)
+    {
+        if(building.getNumberOfFloors()>building.getRooms().size())
+        {
+            return true;
+        }
+        else
+        {
+            System.out.println("This is an odd building");
+        }
+        return false;
 
     }
+
 
 }

@@ -32,5 +32,13 @@ public class Room
         return numberOfWindows;
     }
 
+    @Override
+    public String toString()
+    {
+        return "Room: "  + "numberOfDoors: " + numberOfDoors + ", numberOfLamps: " + numberOfLamps +
+                ", numberOfWindows: " + numberOfWindows;
+    }
+
+
 
 }
