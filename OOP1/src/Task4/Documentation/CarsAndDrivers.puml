@@ -1,14 +1,12 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-class Main
-{
+class Main {
     + static void main(String[] args)
 }
 
-
 class Car {
-    - String make
+    - String make;
     - String model;
     - int year;
     - String bodyStyle;
@@ -20,10 +18,10 @@ class Car {
     + String toString()
 }
 
-class Driver
-{
+class Driver {
     - String name;
     - int age;
+
     + Driver(String name, int age)
     + String getName()
     + String setName()
@@ -32,8 +30,6 @@ class Driver
     + String toString()
 }
 
-
 Main *-- Car
 Car *-- Driver
-
 @enduml
