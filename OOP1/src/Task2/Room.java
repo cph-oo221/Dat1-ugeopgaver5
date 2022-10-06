@@ -35,8 +35,8 @@ public class Room
     @Override
     public String toString()
     {
-        return "Room: "  + "numberOfDoors: " + numberOfDoors + ", numberOfLamps: " + numberOfLamps +
-                ", numberOfWindows: " + numberOfWindows;
+        return "Room: "  + "Doors: " + numberOfDoors + ", Lamps: " + numberOfLamps +
+                ", Windows: " + numberOfWindows;
     }
 
 

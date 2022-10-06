@@ -5,7 +5,7 @@ public class Car
     // 5 private fields:
 
     // Jeg er ikke sikker på om make skal være int?????
-    private int make;
+    private String make;
     private String model;
     private int year;
 
@@ -14,7 +14,7 @@ public class Car
     private Driver driver;
 
     // Constructor for car
-    public Car(int make, String model, int year, String bodyStyle)
+    public Car(String make, String model, int year, String bodyStyle)
     {
         this.make = make;
         this.model = model;
