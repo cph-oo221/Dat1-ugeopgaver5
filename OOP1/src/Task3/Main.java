@@ -8,11 +8,11 @@ public class Main
     public static void main(String[] args)
     {
 
-
-
         // test  toString
         /* Customer customer = new Customer("Oskar","Olsen","OskarOlsen",123);
         System.out.println(customer.toString());*/
+
+        //6 instanser af Customer typen:
         Customer customer1 = new Customer("Oskar","Olsen","OskarOlsen");
         Customer customer2 = new Customer("Peter", "Hansen", "PeterHansen");
         Customer customer3 = new Customer("Fie", "Larsen", "FieLarsen");
@@ -39,6 +39,4 @@ public class Main
             System.out.println(c);
         }
     }
-
-
 }

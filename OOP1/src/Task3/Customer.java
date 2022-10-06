@@ -8,7 +8,6 @@ public class Customer
     private int id;
 
 
-
     public Customer(String firstName, String lastName, String username)
     {
         this.firstName = firstName;

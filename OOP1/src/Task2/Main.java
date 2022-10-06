@@ -23,7 +23,7 @@ public class Main
 
         // 2.I Instantiate a new building.
 
-        Building building = new Building(rooms,5,2,false);
+        Building building = new Building(rooms,5,4,false);
 
         //System.out.println(building1.toString());
 
@@ -31,7 +31,7 @@ public class Main
         int countOfLambs = countLampsInBuilding(building);
         System.out.println("The numbers of lambs: " + countOfLambs);
 
-        System.out.println("Is there more rooms then floors: " + isNormal(building));
+        System.out.println("isNormal: " + isNormal(building));
 
     }
 
