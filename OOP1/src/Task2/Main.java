@@ -51,7 +51,6 @@ public class Main
 
     }
 
-
     // 2.k
     public static boolean isNormal(Building building)
     {
