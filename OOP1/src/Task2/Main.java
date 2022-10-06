@@ -18,7 +18,7 @@ public class Main
         rooms.add(room1);
         rooms.add(room2);
         rooms.add(room3);
-        
+
 
 
         // 2.I Instantiate a new building.
