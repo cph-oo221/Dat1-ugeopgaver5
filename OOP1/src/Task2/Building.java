@@ -36,15 +36,4 @@ public class Building
     {
         return isOfficeBuilding;
     }
-
-    @Override
-    public String toString()
-    {
-        return "Building{" +
-                "rooms=" + rooms +
-                ", numberOfBathrooms=" + numberOfBathrooms +
-                ", numberOfFloors=" + numberOfFloors +
-                ", isOfficeBuilding=" + isOfficeBuilding +
-                '}';
-    }
 }

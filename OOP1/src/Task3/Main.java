@@ -9,7 +9,7 @@ public class Main
     {
 
         // test  toString
-        /* Customer customer = new Customer("Oskar","Olsen","OskarOlsen",123);
+        /* Customer customer = new Customer("Oskar","Olsen","OskarOlsen");
         System.out.println(customer.toString());*/
 
         //6 instanser af Customer typen:

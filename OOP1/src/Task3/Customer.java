@@ -41,6 +41,6 @@ public class Customer
     public String toString()
     {
         return "Customer: " +
-                "Name: " + firstName + " " +  lastName + " " + "Username: " + username;
+                "Name: " + firstName + " " +  lastName + ", " + "Username: " + username;
     }
 }

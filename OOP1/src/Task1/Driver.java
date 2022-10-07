@@ -14,8 +14,6 @@ public class Driver
         this.age = age;
     }
 
-    // getter & setter
-
     // get and set name
     public String getName()
     {

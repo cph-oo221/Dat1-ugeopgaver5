@@ -38,7 +38,4 @@ public class Room
         return "Room: "  + "Doors: " + numberOfDoors + ", Lamps: " + numberOfLamps +
                 ", Windows: " + numberOfWindows;
     }
-
-
-
 }
